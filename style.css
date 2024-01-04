@@ -1,11 +1,15 @@
 body{font-family: 'Poppins', sans-serif;
 margin: 0;
 }
+.margine {
+    margin-left:150px;
+    margin-right:150px;
+}
 .align{
 
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     gap: 20px;
 }
 .lefts1{
@@ -48,10 +52,6 @@ margin: 0;
     left: -14px;
     top: 44px;
     border-radius: 5px;
-    
-
-
-
 }
 
 .button{
@@ -63,4 +63,44 @@ margin: 0;
 }
 .padding{
     padding-bottom: 5px;
+}
+.container_2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    flex-direction: column;
+    
+    
+}
+.card{
+    background-color: #4F9DA61A;
+    padding: 24px;
+    border-radius: 26px;
+    width: 30%;
+}
+.card img {
+    width: 126px;
+}
+.container_2_left{
+    font-size: 30px;
+}
+.container_3 {
+    margin-top: 50px;
+}
+.container_3 img{
+    width: 300px;
+}
+.c3t{
+width: 700px;
+}
+
+.container_ft{
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    line-height:15px;
+    padding: 50px;
+    align-items: center;
+    text-align: center;
 }
